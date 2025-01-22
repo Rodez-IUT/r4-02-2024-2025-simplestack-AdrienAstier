@@ -1,12 +1,16 @@
 package org.example;
 
 public class SimpleStack implements Stack {
+
+    public Simple
+
     /**
      * Tests if this stack is empty
      */
     @Override
     public boolean isEmpty() {
-        return false;
+
+        return this.getSize() == 0;
     }
 
     /**
@@ -14,6 +18,7 @@ public class SimpleStack implements Stack {
      */
     @Override
     public int getSize() {
+
         return 0;
     }
 
